@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Apercu mono';
+    src: url(./fonts/Apercu/Apercu_Mono.otf) format('OpenType');
+}
+
+@font-face {
+    font-family: 'Apercu light';
+    src: url(./fonts/Apercu/Apercu_Light.otf) format('OpenType');
+}
+
+@font-face {
+    font-family: 'Apercu bold';
+    src: url(./fonts/Apercu/Apercu_Bold.otf) format('OpenType');
+}
+
+@font-face {
+    font-family: 'Apercu medium';
+    src: url(./fonts/Apercu/Apercu_Medium.ttf) format('TrueType');
+}
+
+@font-face {
+    font-family: 'Apercu';
+    src: url(./fonts/Apercu/ApercuRegular.ttf) format('TrueType');
+}
+
+
+
+@font-face {
+    font-family: 'Gooper light';
+    src: url(./fonts/Gooper/Gooper-Light.ttf) format('TrueType');
+}
+@font-face {
+    font-family: 'Gooper light italic';
+    src: url(./fonts/Gooper/Gooper-LightItalic.ttf) format('TrueType');
+}
+
+@font-face {
+    font-family: 'Gooper bold';
+    src: url(./fonts/Gooper/Gooper-Bold.ttf) format('TrueType');
+}
+
+@font-face {
+    font-family: 'Gooper semibold';
+    src: url(./fonts/Gooper/Gooper-SemiBold.ttf) format('TrueType');
+}
+
+@font-face {
+    font-family: 'Gooper italic';
+    src: url(./fonts/Gooper/Gooper-RegularItalic.ttf) format('TrueType');
+}
+@font-face {
+    font-family: 'Gooper';
+    src: url(./fonts/Gooper/Gooper-Regular.ttf) format('TrueType');
+}
+
