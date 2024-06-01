@@ -1,0 +1,16 @@
+.aa{
+    background-color: #44C18B;
+}
+
+
+.gradient-proj.edlenecastro {
+    background-color: var(--greeene);
+    background-image: linear-gradient(135deg, #44C18B, #000 30%);
+}
+
+.gradient-proj.edlenecastro:hover {
+    background-image: linear-gradient(135deg, #44C18B, #000 86%);
+}
+
+
+

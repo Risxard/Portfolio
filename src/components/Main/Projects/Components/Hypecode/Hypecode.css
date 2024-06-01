@@ -1,0 +1,13 @@
+.gradient-proj.hypecode {
+    background-color: var(--greeene);
+    background-image: linear-gradient(135deg, #fe0000, #000 30%);
+}
+
+.gradient-proj.hypecode:hover {
+    background-image: linear-gradient(135deg, #fe0000, #000 86%);
+}
+
+
+.project-grid.hypecode{
+
+}

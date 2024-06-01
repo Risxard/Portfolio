@@ -1,6 +1,15 @@
 @import url(./layout//Variables.css);
 
 :root {
+  --white: white;
+  --black: black;
+  --greeene: #409b5e;
+  --body-color: #1a1b1f;
+  --border-grey: #666;
+  --dark-bgkd: #0a0a0a;
+  --white-smoke: #f8f6f6;
+  --orange: #eb5837;
+  --mediumblue: #7f93d1;
 }
 
 
@@ -13,3 +22,7 @@
 body{
   background-color: #0f0f0f
 }
+
+/* .page{
+  padding-top: 76px;
+} */

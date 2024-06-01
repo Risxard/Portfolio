@@ -23,13 +23,13 @@ const Footer = () => {
 
             <div>
               <div>
-                <a href="">Linkedin↗︎</a>
+                <a href="https://www.linkedin.com/in/richardsonsouza/" target='_blank'>Linkedin↗︎</a>
               </div>
               <div>
-                <a href="">Email↗︎</a>
+              <a href="mailto:richardsonphp@gmail.com">Email↗︎</a>
               </div>
               <div>
-                <a href="">read.cv↗︎</a>
+                <a href="https://github.com/Risxard" target='_blank'>Github↗︎</a>
               </div>
             </div>
 

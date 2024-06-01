@@ -1,15 +1,12 @@
-import Footer from './components/Footer/Footer.tsx'
-import Header from './components/Header/HeroSection/HeroSection.tsx';
-import Navigation from './components/Header/Navigation/Navigation.tsx';
-import Main from './components/Main/Main.tsx';
+
+import { Outlet } from 'react-router-dom';
+import Navigation from './components/Navigation/Navigation.tsx';
 
 function App() {
   return (
     <>
       <Navigation/>
-      <Header />
-      <Main />
-      <Footer />
+      <Outlet/>
     </>
   );
 }
