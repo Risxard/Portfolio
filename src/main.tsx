@@ -12,8 +12,8 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
   <BrowserRouter>
     <Routes>
       <Route element={<App />}>
-        <Route path="/" element={<Home />} />
-        <Route path="/work/:id" element={<Work />} />
+        <Route path="/development" element={<Home />} />
+        <Route path="/development/work/:id" element={<Work />} />
         {/* <Route path="/" element={logged == 'true' ? <Home /> : <Navigate to="/suprime-video/" />} /> */}
       </Route>
     </Routes>
