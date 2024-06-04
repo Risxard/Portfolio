@@ -20,5 +20,5 @@ jobs:
           username: ${{ secrets.RICHARD_FTP_USER }}
           password: ${{ secrets.RICHARD_FTP_PASSWORD }}
           server-dir: public_html/development/
-          local-dir: ./dist/  # Ajuste o caminho local para apontar para a pasta dist
+          local-dir: ./dist/
           args: --delete
