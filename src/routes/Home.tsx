@@ -6,6 +6,7 @@ function Home() {
     return (
         <div className='Home page'>
             <Header/>
+            <h1>Teste carai</h1>
             <Main/>
             <Footer/>
         </div>
