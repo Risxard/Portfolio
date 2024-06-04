@@ -7,7 +7,6 @@ function Home() {
         <div className='Home page'>
             <Header/>
             <Main/>
-            <h1>Teste carai</h1>
             <Footer/>
         </div>
     );
