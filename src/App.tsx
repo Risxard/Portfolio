@@ -6,7 +6,8 @@ function App() {
   return (
     <>
       <Navigation/>
-      {/* <Outlet/> */}
+      <Outlet/>
+      <h1>teste teste teste</h1>
     </>
   );
 }
