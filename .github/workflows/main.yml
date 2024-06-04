@@ -13,6 +13,9 @@ jobs:
       - name: 🚚 Get latest code
         uses: actions/checkout@v4
 
+      - name: 🛠️ Build project
+        run: npm run build
+
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
@@ -22,3 +25,12 @@ jobs:
           server-dir: public_html/development/
           local-dir: ./dist/
           args: --delete
+
+          # Passos para deploy no ambiente de desenvolvimento:
+          # 1. Execute o comando 'npm run build' para gerar uma nova build.
+          # 2. Adicione as alterações na pasta 'dist' ao índice do Git:
+          #    git add -f dist
+          # 3. Faça um commit das alterações:
+          #    git commit -m "nome do commit"
+          # 4. Envie as alterações para o repositório remoto:
+          #    git push origin main
