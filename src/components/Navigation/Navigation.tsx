@@ -18,6 +18,7 @@ function Navigation() {
 
         if (showMenu) {
             setShowMenu(false);
+            setActive(false);
         }
     }
 
@@ -29,6 +30,7 @@ function Navigation() {
 
             if (navMenu && !navMenu.contains(event.target as Node) && hamMenu && !hamMenu.contains(event.target as Node)) {
                 setShowMenu(false);
+                setActive(false);
             }
         }
 

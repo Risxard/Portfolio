@@ -34,7 +34,6 @@ const Projects = () => {
                 <SisTea />
                 <EdleneCastro />
 
-
             </div>
         </div>
     );

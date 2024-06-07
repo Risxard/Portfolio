@@ -7,14 +7,15 @@ const SisTea = () => {
     return (
         <div className="project-grid SisTea">
             <div className="info-div">
-
                 <img src={SisTeaLogo} alt="" className="logo" loading="lazy"/>
 
-                <a href="/work/SisTea" className="linky">
+                
+                <a href="./work/SisTea" className="linky">
                     <div className="gradient-proj sistea">
-                        <h1 className="project-name"><em>Helping</em> nonverbal children&nbsp;communicate</h1>
+                        <h1 className="project-name"><em>Helping</em> nonverbal<br />children communicate</h1>
                     </div>
                 </a>
+
                 <div className='project-description'>
                     I contributed to the MVP development of the SisTEA app,
                      which is dedicated to aiding communication for nonverbal autistic children.

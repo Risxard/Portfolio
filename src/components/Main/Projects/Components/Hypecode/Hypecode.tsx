@@ -6,11 +6,11 @@ import './Hypecode.css'
 
 const Hypecode = () => {
     return (
-        <div className="project-grid hypecode">
+        <div className="project-grid Hypecode">
             <div className="info-div">
                 <HypecodeLogo />
 
-                <a href="/work/hypecode" className="linky">
+                <a href="./work/hypecode" className="linky">
                     <div className="gradient-proj hypecode">
                         <h1 className="project-name">Future of <em>fan commerce</em> capabilities in&nbsp;Hypecode</h1>
                     </div>
